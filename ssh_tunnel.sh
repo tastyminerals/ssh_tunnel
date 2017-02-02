@@ -4,8 +4,9 @@
 # config
 username="pavels"
 # sudo mkdir /mnt/tunnel && sudo chown $USER /mnt/tunnel
-#mountpath="/mnt/tunnel/"  # set your path, do not create dirs in $HOME!
-mountpath="/home/$USER/tunnel/"  # works on chromebooks
+# sudo chown $USER /mnt/tunnel
+mountpath="/mnt/tunnel/"  # set your path, do not create dirs in $HOME!
+#mountpath="/home/$USER/tunnel/"  # works on chromebooks
 tail="@login.coli.uni-saarland.de:/home/CE/$username"
 
 # set some constants
