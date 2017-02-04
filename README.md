@@ -19,5 +19,5 @@ Open the script file. In "config" section set your `username`, `mountpath` and `
     ssh_tunnel froggy -- also possible, mountpoint name will be /home/user/tunnel/froggy
     ssh_tunnel -u /home/user/tunnel/username -- unmount /home/user/tunnel/username dir
     ssh_tunnel -f -- unmount all mounted dirs
-    ssh_tunnel -e falken-1 -- mount falken-1 fs which is behind initial "tail" machine on /home/user/tunnel/falken-1
+    ssh_tunnel -e falken-1 -- mount falken-1 fs on /home/user/tunnel/falken-1
 ```
