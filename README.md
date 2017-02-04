@@ -14,6 +14,7 @@ Open the script file. In "config" section set your `username`, `mountpath` and `
    -e, mount remote machine2 which is behind another ssh machine, ssh machine1 --> ssh machine2 
    -u, unmount remote file system dirs
    -f | --off, unmount all mounted dirs and close all ssh processes!
+   
  Examples:
     ssh_tunnel username -- mount remote username machine using random port on given mountpoint
     ssh_tunnel froggy -- also possible, mountpoint name will be /home/user/tunnel/froggy
